@@ -25,7 +25,7 @@ spec:
         app.kubernetes.io/instance: rhtap-service-push-component
     spec:
       containers:
-      - image: python-image:latest
+      - image: quay.io/hacbs-release-tests/dev-release-team-tenant/rhtap-service-push-app/rhtap-service-push-component@sha256:71bfd6396c66a9dfb963048f61ade855f9dafb0a1b75957ba84b21f989dfb149
         name: my-python
         ports:
         - containerPort: 8081
